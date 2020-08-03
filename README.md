@@ -2,6 +2,7 @@
 It's a repository for super-mario Reinforcement learning
 
 Introduction
+The objective of this repository is to explore the reinforcement-learning models for playing super-mario. 
 
 Method 
 
