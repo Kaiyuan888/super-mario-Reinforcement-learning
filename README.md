@@ -74,7 +74,9 @@ python3 train.py
 
 # reference:
 Schulman, J., Wolski, F., Dhariwal, P., Radford, A., & Klimov, O. (2017). Proximal policy optimization algorithms. arXiv preprint arXiv:1707.06347.
+
 Mnih, V., Badia, A. P., Mirza, M., Graves, A., Lillicrap, T., Harley, T., ... & Kavukcuoglu, K. (2016, June). Asynchronous methods for deep reinforcement learning. In International conference on machine learning (pp. 1928-1937).
 # code reference:
 https://github.com/uvipen/Super-mario-bros-A3C-pytorch.git
+
 https://github.com/uvipen/Super-mario-bros-PPO-pytorch.git
