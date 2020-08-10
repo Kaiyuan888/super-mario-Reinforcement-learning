@@ -20,10 +20,6 @@ The objective of this repository is to explore the reinforcement-learning models
 ## Method 
 
  Git clone
-  
-   
-   
-   
  
  on computer terminal:
  
@@ -44,6 +40,8 @@ The objective of this repository is to explore the reinforcement-learning models
  
  
  on Google colab:
+ 
+ move git clone into colab
  
  !pip install gym gym-super-mario-bros opencv-python torch torchvision
  
