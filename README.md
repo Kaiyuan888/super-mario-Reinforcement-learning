@@ -31,7 +31,7 @@ The algorithmn having model tring out different possibilities and improved based
  
  Before modify model, delete all the weights
  
- on computer terminal:
+ ### on computer terminal:
  
  Create virtual environment
  
@@ -49,7 +49,7 @@ The algorithmn having model tring out different possibilities and improved based
  
  
  
- on Google colab:
+ ### on Google colab:
  
  move git clone into colab
  
