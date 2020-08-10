@@ -19,6 +19,15 @@ The objective of this repository is to explore the reinforcement-learning models
 
 ## Method 
 
+
+
+
+Reinforcement learning 
+
+algorithm of reinforcement learning 
+
+# Super Mario Bro Procedure (how to run code) 
+
  Git clone
  
  on computer terminal:
@@ -50,10 +59,3 @@ The objective of this repository is to explore the reinforcement-learning models
  !python train.py
  
  !python test.py
-
-
-Reinforcement learning 
-
-algorithm of reinforcement learning 
-
-Super Mario Bro Procedure (how to run code) 
