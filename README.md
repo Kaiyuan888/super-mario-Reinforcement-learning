@@ -20,9 +20,13 @@ The objective of this repository is to explore the reinforcement-learning models
 Method 
 
  Git clone
+ 
  Create virtual environment
+ 
  Python3 pip install pipenv
+ 
  Python3 -m pip install gym gym-super-mario-bros opencv-python torch torchvision
+ 
  Brew install ffmpeg
 
 
