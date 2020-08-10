@@ -20,7 +20,8 @@ The objective of this repository is to explore the reinforcement-learning models
 ## Method 
 
  Git clone
- 
+  
+  
  
  on computer terminal:
  
