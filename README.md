@@ -19,16 +19,17 @@ The objective of this repository is to explore the reinforcement-learning models
 
 ## Method 
 
-
-
-
 Reinforcement learning 
 
 algorithm of reinforcement learning 
 
-# Super Mario Bro Procedure (how to run code) 
+The algorithmn having model tring out different possibilities and improved based on the feedback give back by the environment. In this case, the game is the enviroment and the score or the distance traveled is the feedback. 
+
+# Super Mario Bro Procedure (how to run code) 
 
  Git clone
+ 
+ Before modify model, delete all the weights
  
  on computer terminal:
  
@@ -59,3 +60,7 @@ algorithm of reinforcement learning 
  !python train.py
  
  !python test.py
+ 
+ # Conclusion 
+ 
+ This type of reinforcement learning algorithm is good for conquering simple game. The advantage that this type has is that the model is relativly simple and fast. The disadvantage is that it can only conquer simple game and takes many iterations in the enviroment to get to a relative good place, however getting environment that allows many attempts and processing at high speed is hard. Having complex model with previous knowledges and other features might be a good idea for dealing with complex game, but the problem is that the previous knowledges might takes years to train. 
