@@ -30,7 +30,7 @@ Possible loophole:
 
 PPO method: While A3C method is good to help fasten the training, it is not yet stable, thus, OpenAI propose a optimization method where gradient descent can enables multiple epochs of minibatch updates
 
-<img src="screenshotalgo.png"  width = "250">
+<img src="screenshotalgo.png"  height = "250">
 
 # Super Mario Bro Procedure (how to run code) 
 
