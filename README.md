@@ -17,7 +17,7 @@ The objective of this repository is to explore the reinforcement-learning models
   <i>Sample results</i>
 </p>
 
-##Method 
+##Method## 
 
  Git clone
  
