@@ -29,11 +29,11 @@ The algorithmn having model tring out different possibilities and improved based
 
  Git clone
  
+ Create virtual environment
+ 
  Before modify model, delete all the weights
  
  ### on computer terminal:
- 
- Create virtual environment
  
  Python3 pip install pipenv
  
