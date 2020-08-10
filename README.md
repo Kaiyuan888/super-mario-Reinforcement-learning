@@ -21,6 +21,7 @@ The objective of this repository is to explore the reinforcement-learning models
 
  Git clone
  
+ 
  on computer terminal:
  
  Create virtual environment
