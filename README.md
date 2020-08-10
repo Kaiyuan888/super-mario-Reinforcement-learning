@@ -1,7 +1,7 @@
 # super-mario-Reinforcement-learning
 It's a repository for super-mario Reinforcement learning
 
-Introduction
+## Introduction
 The objective of this repository is to explore the reinforcement-learning models for playing super-mario.
 
 <p align="center">
@@ -21,6 +21,8 @@ The objective of this repository is to explore the reinforcement-learning models
 
  Git clone
  
+ on computer terminal:
+ 
  Create virtual environment
  
  Python3 pip install pipenv
@@ -28,6 +30,24 @@ The objective of this repository is to explore the reinforcement-learning models
  Python3 -m pip install gym gym-super-mario-bros opencv-python torch torchvision
  
  Brew install ffmpeg
+ 
+ pip3 install tensorboardX
+ 
+ python3 train.py
+ 
+ python3 test.py
+ 
+ 
+ 
+ on Google colab:
+ 
+ !pip install gym gym-super-mario-bros opencv-python torch torchvision
+ 
+ !pip install tensorboardX
+ 
+ !python train.py
+ 
+ !python test.py
 
 
 Reinforcement learning 
