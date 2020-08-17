@@ -26,7 +26,7 @@ A3C method:
 
 Actor-critic are similar to GAN method in computer vision method whre we have two agents, one agent (actor) is trying to explore the environtment, and one agent (critic) rewards the point or punish depend on how the actor agent does. If the actor agent move foward with the game, the critic agen positively reinforce by rewarding the points until the actor agent reaches the end game. Advance actor-critic is where the critic agent need to compare multiple actions, and reward the better ones. For Asynchronous Advantage Actor-Critic, we have multiple actor agents discover different path at once, and the critic agent need to determine the best outcome. Thus, A3C is a more advanced method which help fasten the training.
 
-Possible loophole:
+Possible loophole: The critic agent may falsely understand the situation which may cause the algorithmn unable to improve further. Exmaple might be decision that may lead to rare case of the game such as opening hidden gateway in some games. Sometimes this loophole will not be a problem if the algloroithn gets lucky, but in reality algorithmn will face a lot of problem with it if the chance for trying the game is limited.
 
 PPO method: While A3C method is good to help fasten the training, it is not yet stable, thus, OpenAI propose a optimization method where gradient descent can enables multiple epochs of minibatch updates
 
