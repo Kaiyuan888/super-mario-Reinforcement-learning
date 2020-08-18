@@ -22,6 +22,30 @@ The objective of this repository is to explore the reinforcement-learning models
 Reinforcement learning 
 The algorithmn having model tring out different possibilities and improved based on the feedback give back by the environment. In this case, the game is the enviroment and the score or the distance traveled is the feedback. 
 
+In more detail, RL is built based on Markov Decision Progress (MDP) which composed of:
+
+<img src="sc/sc00001.png"  height = "250">
+
+The reward is granted when the agent's action satisfy the policy, as time goes on, the future reward is smaller than the current value:
+
+<img src="sc/sc00002.png"  height = "250">
+
+where the  deterministic is defined as: 
+<img src="sc/sc00005.png"  height = "250">
+
+with its objective funtion as define:
+<img src="sc/sc00003.png"  height = "250">
+
+
+The policy can be determinlistic or stochastic. For stochastic, we have probablity distribution :
+
+<img src="sc/sc00007.png"  height = "250">
+
+with the objective function:
+
+<img src="sc/sc00005.png"  height = "250">
+
+
 A3C method:
 
 Actor-critic are similar to GAN method in computer vision method whre we have two agents, one agent (actor) is trying to explore the environtment, and one agent (critic) rewards the point or punish depend on how the actor agent does. If the actor agent move foward with the game, the critic agen positively reinforce by rewarding the points until the actor agent reaches the end game. Advance actor-critic is where the critic agent need to compare multiple actions, and reward the better ones. For Asynchronous Advantage Actor-Critic, we have multiple actor agents discover different path at once, and the critic agent need to determine the best outcome. Thus, A3C is a more advanced method which help fasten the training.
