@@ -45,7 +45,7 @@ The policy can be determinlistic or stochastic. For stochastic, we have probabli
 
 with the objective function:
 
-<img src="sc/sc00008.png" width = "750">
+<img src="sc/sc00006.png" width = "750">
 
 
 A3C method:
