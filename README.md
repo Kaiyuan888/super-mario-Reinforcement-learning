@@ -24,26 +24,28 @@ The algorithmn having model tring out different possibilities and improved based
 
 In more detail, RL is built based on Markov Decision Progress (MDP) which composed of:
 
-<img src="sc/sc00001.png"  height = "250">
+<img src="sc/sc00001.png"  width = "750">
 
 The reward is granted when the agent's action satisfy the policy, as time goes on, the future reward is smaller than the current value:
 
-<img src="sc/sc00002.png"  height = "250">
+<img src="sc/sc00002.png"  width = "750">
 
 where the  deterministic is defined as: 
-<img src="sc/sc00005.png"  height = "250">
 
-with its objective funtion as define:
-<img src="sc/sc00003.png"  height = "250">
+<img src="sc/sc00005.png"  width = "250">
+
+with its objective funtion as define: 
+
+<img src="sc/sc00003.png"  width = "750">
 
 
 The policy can be determinlistic or stochastic. For stochastic, we have probablity distribution :
 
-<img src="sc/sc00007.png"  height = "250">
+<img src="sc/sc00007.png"  width = "250">
 
 with the objective function:
 
-<img src="sc/sc00005.png"  height = "250">
+<img src="sc/sc00008.png" width = "750">
 
 
 A3C method:
